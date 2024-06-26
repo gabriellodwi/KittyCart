@@ -22,9 +22,9 @@
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_extend.scss */
 .boxed-btn3 {
-  background-image: -moz-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
-  background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
-  background-image: -ms-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+  background-image: -moz-linear-gradient(0deg, rgba(65,25,2,1) 18%, rgba(125,53,0,1) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(65,25,2,1) 18%, rgba(125,53,0,1) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(65,25,2,1) 18%, rgba(125,53,0,1) 100%);
 }
 
 /* Normal desktop :1200px. */
@@ -116,7 +116,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  color: #909092;
+  color: #000000;
   margin-bottom: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -418,7 +418,7 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   border: 1px solid transparent;
-  color: #ff3500;
+  color: #1F1F1F;
   padding: 17px 50px;
   font-family: "Poppins", sans-serif;
   display: inline-block;
@@ -429,9 +429,9 @@ h3 {
 
 /* line 59, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #ff3500;
+  background: rgb(65,25,2);
   color: #fff;
-  border: 1px solid #ff3500;
+  border: 1px solid rgb(65,25,2);
 }
 
 /* line 64, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
@@ -555,7 +555,7 @@ h3 {
 .section_title p {
   font-size: 16px;
   line-height: 30px;
-  color: #909092;
+  color: #000000;
   font-weight: 400;
 }
 
@@ -1386,11 +1386,11 @@ h3 {
 /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   font-size: 75px;
   font-weight: 200;
-  margin-bottom: 4px;
-  line-height: 85px;
+  margin-bottom: 0px;
+  line-height: 75px;
 }
 
 /* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
@@ -1429,9 +1429,9 @@ h3 {
   color: #ffffff;
   margin-bottom: 0;
   margin-top: 0;
-  line-height: 32px;
-  display: inline-block;
-  margin-bottom: 50px;
+  line-height: 20px;
+  display: inherit;
+  margin-bottom: 40px;
   margin-top: 12px;
 }
 
@@ -1872,8 +1872,8 @@ h3 {
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 241px;
-  padding-bottom: 106px;
+  padding-top: 73px;
+  padding-bottom: 24px;
 }
 
 @media (max-width: 767px) {
@@ -1895,7 +1895,7 @@ h3 {
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service {
   padding: 70px 25px 65px 25px;
-  border: 1px solid #ffc5c2;
+  border: 1px solid rgb(65,25,2);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -2186,7 +2186,7 @@ h3 {
 
 /* line 38, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_content h4 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: #383737;
   margin-bottom: 0;
@@ -2206,10 +2206,10 @@ h3 {
 
 /* line 54, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_content p {
-  font-size: 18px;
+  font-size: 20px;
   color: #66666f;
   margin-bottom: 0;
-  line-height: 35px;
+  padding-right: 37px;
 }
 
 @media (max-width: 767px) {
@@ -2664,7 +2664,7 @@ h3 {
 .footer .footer_top .footer_widget .address_text {
   font-size: 16px;
   font-weight: 400;
-  color: #7a7a7a;
+  color: #411902;
   line-height: 28px;
   font-family: "Poppins", sans-serif;
 }
@@ -2689,7 +2689,7 @@ h3 {
   font-weight: 400;
   line-height: 40px;
   font-family: "Poppins", sans-serif;
-  color: #7a7a7a;
+  color: #411902;
 }
 
 /* line 39, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
@@ -2708,7 +2708,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 25px;
   font-weight: 500;
-  color: #2e2e2e;
+  color: #411902;
   text-transform: capitalize;
   margin-bottom: 36px;
   font-family: "Poppins", sans-serif;
@@ -2804,14 +2804,14 @@ h3 {
 
 /* line 121, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #7a7a7a;
+  color: #411902;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 
 /* line 125, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #eb592d;
+  color: #411902;
 }
 
 /* line 131, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
@@ -2904,7 +2904,7 @@ h3 {
 /* line 198, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #888888;
+  color: #848282;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2960,13 +2960,13 @@ h3 {
 
 /* line 246, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .bordered_1px {
-  border-top: 1px solid #e0e0e0;
+  /*border-top: 1px solid #e0e0e0;*/
   padding-bottom: 30px;
 }
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
@@ -3244,8 +3244,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 .pet_care_area {
-  padding-top: 73px;
-  padding-bottom: 24px;
+  padding-top: 241px;
+  padding-bottom: 106px;
 }
 
 @media (max-width: 767px) {
@@ -3263,9 +3263,9 @@ h3 {
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 .pet_care_area .pet_info .section_title p {
-  color: #66666f;
+  color: #000000;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 22px;
   margin-bottom: 54px;
   margin-top: 30px;
 }
@@ -3308,7 +3308,7 @@ h3 {
 
 /* line 20, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_adapt.scss */
 .adapt_area .adapt_help .section_title p {
-  color: #66666f;
+  color: #000000;
   line-height: 28px;
   font-size: 16px;
   margin-bottom: 54px;
@@ -6554,6 +6554,31 @@ h6 {
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.card h4 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */
